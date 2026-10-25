@@ -1,0 +1,10 @@
+interface:
+  display_name: "机会捕手"
+  short_description: "从真实用户表达中找到可验证、能售卖的产品机会"
+  icon_small: "./assets/opportunity-scout-icon.svg"
+  icon_large: "./assets/opportunity-scout-icon.svg"
+  brand_color: "#F2674A"
+  default_prompt: "用 $opportunity-scout 调研这个赛道的真实痛点，并给我一个 7 天内能验证的产品方向。"
+
+policy:
+  allow_implicit_invocation: true
