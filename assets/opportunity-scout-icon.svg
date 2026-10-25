@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">机会捕手图标</title>
+  <desc id="desc">雷达捕捉一枚明亮的机会信号</desc>
+  <defs>
+    <linearGradient id="bg" x1="52" y1="35" x2="460" y2="477" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8ED"/>
+      <stop offset="1" stop-color="#FFE2C9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="256" y1="256" x2="407" y2="139" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2674A" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#F2674A" stop-opacity=".72"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#102A43" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="166" fill="#102A43" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="128" fill="none" stroke="#5D7284" stroke-width="3"/>
+  <circle cx="256" cy="256" r="82" fill="none" stroke="#5D7284" stroke-width="3"/>
+  <path d="M256 90v332M90 256h332" stroke="#5D7284" stroke-width="3" stroke-linecap="round"/>
+  <path d="M256 256L392 139A166 166 0 0 1 422 256Z" fill="url(#beam)"/>
+  <circle cx="362" cy="166" r="24" fill="#F2674A"/>
+  <circle cx="362" cy="166" r="39" fill="none" stroke="#FFB24A" stroke-width="8" opacity=".7"/>
+  <circle cx="256" cy="256" r="12" fill="#FFF8ED"/>
+  <path d="M256 61l15 29-15 29-15-29z" fill="#FFB24A"/>
+</svg>
